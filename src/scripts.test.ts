@@ -1,4 +1,4 @@
-import { generatePassword, PasswordOptions } from './passwordGenerator';
+import { generatePassword, PasswordOptions } from './Test';
 
 describe('generatePassword', () => {
     test('should generate a password of the specified length', () => {
@@ -36,4 +36,3 @@ describe('generatePassword', () => {
         expect(password).toMatch(/^[!@#$%^&*()_+\[\]{}|;:,.<>?]+$/);
     });
 });
- 
