@@ -1,0 +1,9 @@
+
+### Setting Up Jest
+
+To set up Jest in your TypeScript project, you need to install some dependencies and configure Jest.
+
+#### Install Jest and TypeScript support
+
+```bash
+npm install --save-dev jest ts-jest @types/jest
